@@ -36,8 +36,8 @@ public class Lab2Q1 {
         float averageWeight = (num1 + num2 + num3 + num4) /4;
         float averageHeight = (num5 + num6 + num7 + num8) /4;
 
-        System.out.printf("The average weight is %f kg.\n", averageWeight);
-        System.out.printf("The average height is %f cm.\n", averageHeight);
+        System.out.printf("The average weight is %.2f kg.\n", averageWeight);
+        System.out.printf("The average height is %.2f cm.\n", averageHeight);
 
         
     }

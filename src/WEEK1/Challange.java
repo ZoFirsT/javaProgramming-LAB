@@ -9,6 +9,7 @@ public class Challange {
         double height = scanner.nextDouble();
         
         double bmi = weight / (height * height);
+        // System.out.println(bmi);
         
         System.out.printf("Your BMI is %.2f\n", bmi);
         
