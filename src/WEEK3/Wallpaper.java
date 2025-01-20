@@ -27,12 +27,14 @@ public class Wallpaper {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
+        //Challenge Bonus(Optional):
         WallPaperUnit wallpaper1 = new WallPaperUnit();
         wallpaper1.setName("Classic Pattern");
         wallpaper1.setLength(5.5);
 
         System.out.println("Wallpaper Name: " + wallpaper1.getName());
         System.out.println("Wallpaper Length: " + wallpaper1.getLength());
+        //end of challenge bonus
 
         // Task 1: Print out 3 popular styles
         /**************** YOUR CODE HERE (Task 1) *******************/
