@@ -2,7 +2,7 @@ package WEEK3;
 import java.util.Scanner;
 
 
-public class Lacture {
+public class LQ1 {
     public static void main(String[] args) {
         System.out.print("Enter a number: ");
         Scanner in = new Scanner(System.in);
