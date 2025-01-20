@@ -2,9 +2,37 @@ package WEEK3;
 
 import java.util.Scanner;
 
+class WallPaperUnit {
+    private String name;
+    private double length;
+
+    public String getName() {
+        return name;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+}
+
 public class Wallpaper {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
+        WallPaperUnit wallpaper1 = new WallPaperUnit();
+        wallpaper1.setName("Classic Pattern");
+        wallpaper1.setLength(5.5);
+
+        System.out.println("Wallpaper Name: " + wallpaper1.getName());
+        System.out.println("Wallpaper Length: " + wallpaper1.getLength());
 
         // Task 1: Print out 3 popular styles
         /**************** YOUR CODE HERE (Task 1) *******************/
@@ -111,4 +139,5 @@ public class Wallpaper {
         System.out.println("Total Bill: " + totalBill);
         in.close();
     }
+    
 }
